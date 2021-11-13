@@ -1,0 +1,116 @@
+* {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+a:visited{
+    color: blue;
+}
+.flex {
+    display: flex;
+}
+.align{
+    align-items: center;
+}
+.between {
+    justify-content: space-between;
+}
+.grey {
+    color: grey;
+}
+.top {
+    font-size: 110%;
+}
+.accept {
+    height: 15px;
+}
+.gap {
+    gap: 10%;
+}
+a.navlink:link {
+    color: gray;
+    text-decoration: none;
+}
+a.navlink:visited {
+    color: grey;
+    text-decoration: none;
+}
+a.navlink:active {
+    color: grey;
+    text-decoration: none;
+} 
+.navbar {
+    padding: 1% 10%;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+.toplinks {
+    justify-content: center;
+    gap: 4%;
+    white-space: nowrap;
+}
+.container {
+    padding: 1% 10%;
+}
+.col-1 {
+    flex: 2;
+}
+.col-2 {
+    flex: 1;
+}
+.panel {
+    margin: 10px;
+    border: rgb(175, 174, 174) 2pt solid;
+    border-radius: 1%;
+}
+.profiletopbar {
+    background-color: #17a2b8;
+    height: 50px;
+}
+.row {
+    margin: 1% 2%;
+    padding: 0.5%;
+    gap: 1%;
+}
+.topbar {
+    color: white;
+    background-color: black;
+    height: 20px;
+    padding: 2%;
+}
+.numicon {
+    background-color: grey;
+    padding: 0.5%;
+    border: grey 1pt solid;
+    border-radius: 50%
+}
+.profpic {
+    height: 20px;
+    border:  black 1pt solid;
+    border-radius: 50%;
+}
+.signout {
+    color: white;
+    background-color: #17a2b8;
+    border: 1pt blue solid;
+    font: 110%;
+    padding: 0.5% 1%;
+}
+.signout:hover{
+    cursor: pointer;
+}
+.border {
+    border: grey 1pt solid;
+}
+#usercircle {
+    height: 50px;
+    margin-top: -25px;
+    margin-left: 2%;
+}
+#mapmarker {
+    height: 15px;
+}
+#gear {
+    height: 15px;
+}
